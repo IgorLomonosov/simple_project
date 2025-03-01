@@ -2,6 +2,18 @@ import React from "react";
 import NoteList from "./components/NoteList";
 import CookieConsent from "react-cookie-consent";
 
+/**
+ * Головний компонент програми.
+ * 
+ * Відображає заголовок, список нотаток та попап для погодження на cookies.
+ * Також надає посилання на політику конфіденційності та угоду EULA.
+ * 
+ * @component
+ * @example
+ * return <App />;
+ * 
+ * @returns {JSX.Element} - Головна сторінка з нотатками та інтерфейсом cookies.
+ */
 function App() {
   return (
     <div>
